@@ -1,0 +1,40 @@
+{
+  "name": "Message",
+  "plural": "Messages",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+      "messageId": {
+          "id": true,
+          "type": "string"
+      },
+      "from": {
+      "type": "string",
+      "required": true
+    },
+    "to": {
+      "type": [
+        "string"
+      ],
+      "required": true
+    },
+    "type": {
+      "type": "string",
+      "required": true
+    },
+    "body": {
+      "type": "object",
+      "required": true
+    },
+    "delivery_status": {
+      "type": "object"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
