@@ -3,6 +3,7 @@ var fs = require('fs'),
     loopback = require('loopback'),
     path = require('path'),
     async = require('async'),
+    chalk = require('chalk'),
     debug = require('debug')("seed-data");
 
 
@@ -18,7 +19,7 @@ module.exports = function(app, next) {
             Message.upsert(message,cb);
         }, function(err, result){
             debug(err,result);
-            debug("finished seeding messages");
+            console.log(chalk.magenta ("finished seeding messages"));
         });
     });
     process.nextTick(next);
