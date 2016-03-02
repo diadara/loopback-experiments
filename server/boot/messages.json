@@ -1,0 +1,30 @@
+[
+  {
+    "messageId": "string",
+    "from": "diadara",
+    "to": "Saji",
+    "type": "dm",
+    "body": {}
+  },
+  {
+    "messageId": "56d732e91947f99421aea88e",
+    "from": "Nithin",
+    "to": "Saji",
+    "type": "dm",
+    "body": {}
+  },
+  {
+    "messageId": "56d732ee1947f99421aea88f",
+    "from": "Nithin",
+    "to": "Saji",
+    "type": "dm",
+    "body": {}
+  },
+  {
+    "messageId": "56d733331947f99421aea890",
+    "from": "diadara",
+    "to": "Saji",
+    "type": "dm",
+    "body": {}
+  }
+]
