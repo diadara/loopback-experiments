@@ -16,10 +16,8 @@
       "required": true
     },
     "to": {
-      "type": [
-        "string"
-      ],
-      "required": true
+        "type": "string",
+        "required": true
     },
     "type": {
       "type": "string",
@@ -30,7 +28,7 @@
       "required": true
     },
     "delivery_status": {
-      "type": "object"
+      "type": "string"
     }
   },
   "validations": [],
