@@ -3,17 +3,14 @@
     "name": "db",
     "connector": "memory"
   },
-    "mongo": {
-        "name": "mongo",
-        "connector": "mongodb"
-    },
-    "storage": {
-        "name": "storage",
-        "connector": "loopback-component-storage",
-        "provider": "filesystem",
-        "root": "./server/storage"
-    }
-
-
-
+  "mongo": {
+    "name": "mongo",
+    "connector": "mongodb"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage"
+  }
 }

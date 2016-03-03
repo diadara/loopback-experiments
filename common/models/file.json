@@ -1,34 +1,23 @@
 {
-  "name": "Message",
-  "plural": "Messages",
+  "name": "File",
+  "plural": "Files",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "messageId": {
-      "type": "string",
-      "id": true
-    },
-    "from": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "to": {
+    "originalName": {
       "type": "string",
       "required": true
     },
-    "type": {
+    "url": {
       "type": "string",
       "required": true
-    },
-    "body": {
-      "type": "object",
-      "required": true
-    },
-    "delivery_status": {
-      "type": "string"
     }
   },
   "validations": [],
