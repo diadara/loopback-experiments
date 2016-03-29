@@ -43,5 +43,9 @@
   "File": {
     "dataSource": "mongo",
     "public": true
+  },
+  "Temperature": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
