@@ -17,6 +17,7 @@ module.exports = function(Temperature) {
         data.timestamp = (new Date).getTime();
 
         console.log("before save was called",data);
+        console.log("before save was called",data);
 
         next();
     });
